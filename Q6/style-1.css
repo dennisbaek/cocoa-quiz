@@ -1,0 +1,34 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(107, 188, 191);
+}
+
+.dot {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.dot_container {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    animation: 1.5s containerRotate infinite ease-in-out;
+}
+
+@keyframes containerRotate {
+    0%{
+        transform: None;
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
