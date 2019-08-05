@@ -1,0 +1,82 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+.dot{
+    background-color: rgb(206, 216, 232);
+    color: rgb(206, 216, 232);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+}
+#d1{
+    position: absolute;
+    left: 60px;
+    top: 240px;
+}
+#d2{
+    position: absolute;
+    left: 80px;
+    top: 240px;
+}
+#d3{
+    position: absolute;
+    left: 100px;
+    top: 240px;
+}
+#d4{
+    position: absolute;
+    left: 120px;
+    top: 240px;
+}
+#d5{
+    position: absolute;
+    left: 140px;
+    top: 240px;
+}
+#d6{
+    position: absolute;
+    left: 160px;
+    top: 240px;
+}
+div.left_back {
+    background-color: rgb(183, 181, 27);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    width: 30%;
+    height: 100%;
+    z-index: -1;
+}
+
+div.right_back {
+    background-color: rgb(237, 240, 245);
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    height: 100%;
+    width: 70%;
+    z-index: -1;
+}
+div.left_insta {
+    background-color: rgb(237, 240, 246);
+    border-radius: 3px;
+    border: 2px solid black;
+    width: 400px;
+    height: 1000px;
+    position: absolute;
+    left: 180px;
+    top: 150px;
+}
+div.right_insta {
+    background-color: rgb(237, 240, 246);
+    border-radius: 3px;
+    border: 2px solid black;
+    width: 400px;
+    height: 1000px;
+    position: absolute;
+    left: 780px;
+    top: 150px;
+}
