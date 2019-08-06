@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+.airpod {
+    border: 1px solid black;
+    border-radius: 6px;    
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.airpod h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.airpod-description {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.airpod img {
+    height: 60%;
+    position: relative;
+    left: 30%;
+    margin-bottom: 30px;
+}
+
+.airpod-info__additional {
+    display: flex;
+    justify-content: space-between;
+}
+.linkedIn {
+    border: 1px solid black;
+    border-radius: 6px;    
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.linkedIn .top_half {
+    height: 50%;
+    background-color: yellow;
+}
+.linkedIn .top_half img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: -1;
+}
+.profile {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    border: 4px solid white;
+    z-index: 1;
+    top: -10%;
+    left: 38%;
+}
+.profile img{
+    position: relative;
+    left: -28%;
+    top: -24%;
+}
+
+.username b {
+    padding: 0px;
+    font-family: 'PT Sans'
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.button__column button {
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    border: 0px;
+}
+
+
+#follow_btn button {
+    background-color: rgb(106, 117, 255);
+    color: white;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow'
+}
+#message_btn button {
+    background-color: rgb(234, 236, 255);
+    color: rgb(106, 117, 255);
+    font-size: 15px;
+    font-family: 'PT Sans Narrow'
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.job_title {
+    display: flex;
+    justify-content: center;
+    opacity: 70%;
+    margin-bottom: 10px;
+}
