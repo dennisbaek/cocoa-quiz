@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:700&display=swap');
+
+main {
+    position: relative;
+    left: 30%;
+    top: 10%;
+    width: 600px;
+    height: 1200px;
+    font-family: 'PT Sans Narrow';
+    background-color: grey;
+}
+header.global__header {
+    display: flex;
+    justify-content: 
+}
+
+.main__top {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat, no-repeat;
+    height: 50%;
+}
+.main__photo-list {
+    display: flex;
+    position: relative;
+    left: 40%;
+    top: 70%; 
+    
+}
+
+.main__more-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: rgb(63, 103, 255);
+}
+
+img.main__photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+.main__bottom {
+    background-color: white;
+    height: 50%;
+}
