@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:700&display=swap');
+
+body {
+    background-color: grey;
+}
+
+
+
+main {
+    position: relative;
+    left: 33%;
+    top: 10%;
+    width: 300px;
+    height: 670px;   
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+    font-family: 'PT Sans';
+}
+
+.body__header {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+
+.popular__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.popular__header span:nth-child(2) {
+    color: red;
+}
+
+.popular__photo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.popular__photo {
+    width: 140px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'PT Sans Narrow';
+}
+
+#home_photo {
+    background-image: url('https://assets3.thrillist.com/v1/image/2797371/size/tmg-article_default_mobile.jpg');
+    background-size: 140px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#pastry_photo {
+    background-image: url('https://hips.hearstapps.com/del.h-cdn.co/assets/15/30/1437685586-delish-cherry-pastry-pies.jpg');
+    background-size: 140px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#baby_photo {
+    background-image: url('https://static.indigoimages.ca/2019/123485-story2-baby-babyregistry_d.png');
+    background-size: 140px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#smoothie_photo {
+    background-image: url('https://minimalistbaker.com/wp-content/uploads/2017/10/CREAMY-Avocado-Green-Smoothie-5-ingredients-GREEN-SO-healthy-satisfying-vegan-banana-plantbased-smoothie-greensmoothie-avocado-glutenfree-179.jpg');
+    background-size: 140px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.other__header {
+    margin: 10px 0px;
+}
+
+.other__header-title {
+    opacity: 0.7;
+}
+
+.other__recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.recipe__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.other__recipe i {
+    color: red;
+}
+
+.recipe__count {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+nav i:nth-child(2){
+    color: red;
+}
