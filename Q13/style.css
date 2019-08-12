@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:700&display=swap');
+
+body {
+    position: relative;
+}
+
+.animation__1 {
+    width: 300px;
+    height: 150px;
+}
